@@ -1,0 +1,9 @@
+version: '3.19'
+
+services:
+  app:
+    image: next-docker
+    build:
+      dockerfile: Dockerfile.production
+    ports:
+      - 3000:3000
